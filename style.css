@@ -6,8 +6,7 @@ h1{
 }
 
 .container{
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
     margin:1px;
 }
 
