@@ -1,13 +1,17 @@
-const square=document.querySelector('#square');
+const container=document.querySelector('#container');
+
 
 function grid(){
-    for (let i=0; i > 16; i++)
-    square.style.width ='100px'
-    square.style.height= '1000px'
-    square.style.background ='green'
-    square,style.display='flex';
+        const square=document.createElement('square');
+        square.classList.add('container');
+        square.style.height='100px';
+        square.style.width='100px';
+        square.style.backgroundColor='palegreen';
+        container.appendChild(square);
 
 }
 
-console.log(grid());
+grid();
+grid();
+grid();
 

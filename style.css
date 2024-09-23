@@ -1,6 +1,19 @@
 h1{
-    font-size: 50px;
+    font-size:50px;
     color:burlywood;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:1px;
+}
+
+/*.square{
+    height:100px;
+    width:100px;
+    background-color: palegreen;
+    margin:1px;
 }
