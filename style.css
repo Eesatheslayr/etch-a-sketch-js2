@@ -5,14 +5,11 @@ h1{
     
 }
 
-.container{
-    display: inline-block;
-    margin:1px;
-}
+#container{
+    display:flex;
+    border-style: solid;
+    height:700px;
+    flex-direction: column;
 
-/*.square{
-    height:100px;
-    width:100px;
-    background-color: palegreen;
-    margin:1px;
+    
 }
