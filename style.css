@@ -14,3 +14,12 @@ h1{
     gap:0px;
   
  }
+
+ #btn{
+    background-color: burlywood;
+    padding: 20px 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Ope  n Sans', 'Helvetica Neue', sans-serif;
+    font: size 15px;
+    display: block;
+    padding: 5px;
+ }
