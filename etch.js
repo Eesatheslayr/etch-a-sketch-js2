@@ -2,32 +2,19 @@ const container=document.querySelector('#container');
 
 
 function grid(){
-    for (let i=0; i<90;i++){
-        const square=document.createElement('square');
+    for (let i=0; i<256;i++){
+        const square=document.createElement('div');
         square.classList.add('container');
-        square.style.flex='';
-        square.style.height='80px';
-        square.style.width='100px'
-        square.style.borderStyle='dotted';
-        square.style.borderColor='darkgreen';
+        square.style.display='flex';
+        square.style.flexGrow='1';
+        square.style.height='35px';
+        square.style.width='35px';
+        square.style.borderStyle='solid';
+        square.style.borderColor='red';
         square.addEventListener('mouseover', ()=>{
-          square.style.background='black';
+          square.style.background='red';
         })
         container.appendChild(square);
     }
 }
 grid();
-
-/*function click(){
-  container.style.background='black';
-}
-
-container.addEventListener('onmouseover', click);
-    
-
-
-const mouse=document.createElement('mouse');
-container.appendChild(mouse);
-
-
-mouse.addEventListener(onmousedown, */

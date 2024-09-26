@@ -7,9 +7,10 @@ h1{
 
 #container{
     display:flex;
-    border-style: solid;
-    height:700px;
-    flex-direction: column;
-
-    
-}
+    flex-wrap:wrap;
+    border-style:solid;
+    height:674px;
+    width:674px;
+    gap:0px;
+  
+ }
