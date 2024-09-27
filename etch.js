@@ -26,13 +26,16 @@ button.textContent='CHANGE GRID SIZE';
 /*button.addEventListener('click', ()=>{
   prompt('hello');
 })*/
-function prom(){
-  let me=prompt('hello');
-}
-button.addEventListener('click', prom());
 
-function griddy(){
-  if (me='we')
-  return 'ya'
+
+function gridPrompt(){
+  let max=prompt('How many sqaures per side would you like? (MAX:100)')
+  if (max==='1')
+  return container.style.background='blue';
+else{
+  return container.style.background='orange';
 }
+}
+
+button.addEventListener('click', gridPrompt);
 
