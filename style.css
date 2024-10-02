@@ -8,11 +8,26 @@ h1{
 #container{
     display:flex;
     flex-wrap:wrap;
-    border-style:solid;
-    height:674px;
-    width:674px;
-    gap:0px;
-  
+    border:1px solid;
+    flex-direction: column;
+    border-radius: 14px;
+    height: 600px;
+    width: 600px;
+ }
+
+ .row{
+    display: flex;
+    flex-grow: 1;
+
+    
+.column{
+display: flex;
+flex-direction: row;
+flex: 1;
+background-color: blue;
+}    
+
+
  }
 
  #btn{
