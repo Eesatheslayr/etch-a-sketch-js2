@@ -11,18 +11,18 @@ h1{
     flex-direction: column;
     border:1px solid;
     border-radius: 14px;
-    height: 600px;
-    width: 600px;
+    height: 674px;
+    width: 674px;
  }
 
  .row{
     flex-grow: 1;
-    border:solid blue 1px;
+    border:solid black 1px;
  }
     
 .column{
     display:flex;
-    border:solid red 1px;
+    border:solid black 1px;
     flex-grow:1;
 }
 
