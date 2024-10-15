@@ -18,12 +18,12 @@ h1{
 
  .row{
     flex-grow: 1;
-    /*border:solid black 1px;*/
+    border:solid black 1px;
  }
     
 .column{
     display:flex;
-    /*border:solid black 1px;*/
+    border:solid black 1px;
     flex-grow:1;
 }
 
@@ -32,7 +32,16 @@ h1{
     padding: 20px 60px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
-    display: block;
+    display: flex;
+    padding: 5px;
+    margin: auto;
+ }
+
+ #colbtn{
+    padding: 20px 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    display: flex;
     padding: 5px;
     margin: auto;
  }
